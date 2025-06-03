@@ -1,4 +1,4 @@
-A practical customer segmentation project using Recency, Frequency, Monetary (RFM) analysis and unsupervised machine learning (K-Means) to help businesses understand their customer base and design better marketing strategies.
+A practical customer segmentation project using Recency, Frequency, Monetary (RFM) analysis and unsupervised machine learning (K-Means) to help e-commerce businesses understand their customer base and design better marketing strategies.
 
 # Motivation
 Businesses often struggle to differentiate between loyal, high-value customers and one-time buyers. A generic marketing approach results in wasted budget and lost opportunities. The goal of this project was to:
@@ -7,7 +7,7 @@ Businesses often struggle to differentiate between loyal, high-value customers a
 * Enable personalized marketing and retention campaigns
 
 # Dataset
-The dataset is based on real-world e-commerce transactions and includes:
+The dataset contains:
 * Customer ID
 * Order ID
 * Quantity
