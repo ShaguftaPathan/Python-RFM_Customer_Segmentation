@@ -24,18 +24,21 @@ Step 1: RFM Feature Engineering
   * Frequency: Total number of orders
   * Monetary: Total spend
 Used quantiles to assign RFM scores and rank customer value.
+
 ![](/Images_Cust_Seg/RFM_Main.png)
 
 Step 2: Clustering
   * Standardized RFM values using StandardScaler
   * Applied K-Means Clustering
   * Chose optimal k using Elbow Method and Silhouette Score
+  * 
 ![](/Images_Cust_Seg/K-Means.png)
 
 Step 3: Visualization
   * Cluster distribution using Seaborn
   * Bar charts to interpret segments
   * Labeled clusters ("Top Customers", "Average Customers", "Lapsed Customers")
+    
 ![](/Images_Cust_Seg/Clusters.png) ![](/Images_Cust_Seg/RFM.png)
 ![](/Images_Cust_Seg/Status.png)
 
@@ -49,6 +52,7 @@ Step 3: Visualization
     Top Customers: High recency, frequency, and spend
     Average Customers: Frequent buyers with mid spend
     Lapsed Customers: Low frequency, old purchases
+    
 ![](/Images_Cust_Seg/Chart.png)
 
 <a href="https://github.com/ShaguftaPathan/Python/blob/main/Cust_Seg_CCTV.ipynb">View Complete Jupyter Notebook</a>
